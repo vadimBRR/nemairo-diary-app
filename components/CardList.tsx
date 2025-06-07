@@ -95,7 +95,7 @@ const CardList = () => {
 	]
 
 	return (
-		<div className='mt-6'>
+		<div className=''>
 			{cards.map(card => (
 				<Card key={card.id} {...card} />
 			))}
