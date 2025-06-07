@@ -2,8 +2,6 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono, Poppins } from 'next/font/google'
 import './globals.css'
 
-
-
 const poppins = Poppins({
 	variable: '--font-poppins',
 	weight: ['300', '400', '500', '600', '700'],
@@ -22,9 +20,8 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body
-				className={`${poppins} antialiased`}
-			>
+			<body className={`${poppins} antialiased`}>
+				<div className='w-1/3 h-50 bg-gradient-to-r from-blue-500 to-violet-500 absolute blur-3xl top-12 left-2/3  -translate-x-1/2 skew-x-9 opacity-50 rounded-full'></div>
 				{children}
 			</body>
 		</html>
