@@ -25,7 +25,7 @@
 
     --color-card: #16192B;
     --color-button: #453170;
-  --color-dark-white: #878BA0;
+    --color-dark-white: #878BA0;
     --color-border: rgba(135, 139, 160, 0.2);
     --color-shadow: rgba(45, 50, 118, 0.2);
   }
@@ -47,6 +47,7 @@
   .text-foreground {
     color: var(--foreground);
   }
+
   .text-dark-white {
     color: var(--color-dark-white)
   }
@@ -56,8 +57,9 @@
   }
 
   .custom-shadow {
-    box-shadow: 0 4px 6px var(--color-shadow);
+    box-shadow: 0px 4px 23.3px 7px var(--color-shadow);
   }
+
 }
 
 body {
